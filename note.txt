@@ -1,0 +1,21 @@
+======== What is Inertia.js =========
+
+Inertia.js is a JavaScript framework that allows you to build modern single-page applications (SPAs) without the complexity of building an API. It works by intercepting link clicks and making XHR requests to the server. The server then returns a JSON response with the JavaScript page component name and data (props). Inertia then dynamically swaps out the previous page component with the new page component and updates the browser's history state.
+
+
+==>> Write a brief essay (approximately 150-200 words) that explains the differences between server-side rendering (SSR) and client-side rendering (CSR) in web applications. Discuss the advantages and disadvantages of each approach.
+
+Server-side rendering (SSR) and client-side rendering (CSR) are two different approaches to rendering web applications. SSR is the traditional approach, where the server generates the HTML for the page and sends it to the client. CSR is a newer approach, where the server only sends the initial HTML file and the client uses JavaScript to render the page dynamically.
+
+
+SSR has several advantages:
+
+Faster initial load times: The server can pre-render the page and send it to the client, so the page can start displaying content immediately.
+Better SEO: SSR-rendered pages are more easily crawled and indexed by search engines.
+Improved accessibility: SSR-rendered pages are more accessible to users with disabilities, as they do not require JavaScript to be enabled.
+
+
+However, SSR also has some disadvantages:
+
+Increased server load: The server has to render the HTML for every page request, which can increase the load on the server.
+More complex development: SSR applications can be more complex to develop and maintain.
